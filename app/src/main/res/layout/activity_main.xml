@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:background="@drawable/fondo1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="@string/tv" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/AbrirScanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="24dp"
+            android:text="Abrir Scanner"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/estilobutton"
+            android:onClick="Onclick"
+            android:layout_marginBottom="50dp"
+            android:padding="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="@string/txt_codigo"/>
+
+        </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

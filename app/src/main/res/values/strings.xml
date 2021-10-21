@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EscanerQR</string>
+    <string name="txt_codigo">Resultado</string>
+    <string name="btn_eliminar">Eliminar</string>
+    <string name="btn_escanear">Escanear</string>
+
+    <string name="tv">Aplicacion para escanear codigo QR</string>
+
+
+</resources>
