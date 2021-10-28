@@ -4,7 +4,7 @@
     <string name="btn_eliminar">Eliminar</string>
     <string name="btn_escanear">Escanear</string>
 
-    <string name="tv">Aplicacion para escanear codigo QR</string>
-
+    <string name="tv">Aplicacion para </string>
+    <string name="tv1">escanear codigo QR</string>
 
 </resources>
